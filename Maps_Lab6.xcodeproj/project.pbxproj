@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A7AEFFE19AA4D37009DC371 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AEFFD19AA4D37009DC371 /* main.cpp */; };
+		4A7AEFFE19AA4D37009DC371 /* Lab6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AEFFD19AA4D37009DC371 /* Lab6.cpp */; };
 		4A7AF00019AA4D37009DC371 /* Maps_Lab6.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A7AEFFF19AA4D37009DC371 /* Maps_Lab6.1 */; };
+		4A7AF00819AA4E33009DC371 /* Contributor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AF00619AA4E33009DC371 /* Contributor.cpp */; };
+		4A7AF00B19AA4E4F009DC371 /* CharityAward.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AF00919AA4E4F009DC371 /* CharityAward.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,12 @@
 
 /* Begin PBXFileReference section */
 		4A7AEFFA19AA4D37009DC371 /* Maps_Lab6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Maps_Lab6; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A7AEFFD19AA4D37009DC371 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A7AEFFD19AA4D37009DC371 /* Lab6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lab6.cpp; sourceTree = "<group>"; };
 		4A7AEFFF19AA4D37009DC371 /* Maps_Lab6.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Maps_Lab6.1; sourceTree = "<group>"; };
+		4A7AF00619AA4E33009DC371 /* Contributor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Contributor.cpp; sourceTree = "<group>"; };
+		4A7AF00719AA4E33009DC371 /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		4A7AF00919AA4E4F009DC371 /* CharityAward.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharityAward.cpp; sourceTree = "<group>"; };
+		4A7AF00A19AA4E4F009DC371 /* CharityAward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharityAward.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,11 @@
 		4A7AEFFC19AA4D37009DC371 /* Maps_Lab6 */ = {
 			isa = PBXGroup;
 			children = (
-				4A7AEFFD19AA4D37009DC371 /* main.cpp */,
+				4A7AEFFD19AA4D37009DC371 /* Lab6.cpp */,
+				4A7AF00719AA4E33009DC371 /* Contributor.h */,
+				4A7AF00619AA4E33009DC371 /* Contributor.cpp */,
+				4A7AF00A19AA4E4F009DC371 /* CharityAward.h */,
+				4A7AF00919AA4E4F009DC371 /* CharityAward.cpp */,
 				4A7AEFFF19AA4D37009DC371 /* Maps_Lab6.1 */,
 			);
 			path = Maps_Lab6;
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7AEFFE19AA4D37009DC371 /* main.cpp in Sources */,
+				4A7AEFFE19AA4D37009DC371 /* Lab6.cpp in Sources */,
+				4A7AF00B19AA4E4F009DC371 /* CharityAward.cpp in Sources */,
+				4A7AF00819AA4E33009DC371 /* Contributor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
